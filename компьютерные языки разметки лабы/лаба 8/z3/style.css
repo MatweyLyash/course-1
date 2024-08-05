@@ -1,0 +1,38 @@
+nav>ul>li {
+    position: relative;
+}
+
+nav ul {
+    position: absolute;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+.main{
+    border: 1px solid black ;
+    background-color: yellow;
+    padding: 0  110px 0 0;
+}
+.an {
+    display: none;
+    border: 1px dashed black;
+    background-color: rgb(204, 105, 74);
+    margin-bottom: -1px;
+    width: 88px;
+    word-wrap: break-word;
+
+   
+
+}
+
+nav li:hover .an {
+    
+    display: block;
+    margin-left: -42px;
+    
+   
+}
+a{
+    text-decoration: none;
+}

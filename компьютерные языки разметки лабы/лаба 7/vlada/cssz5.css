@@ -1,0 +1,159 @@
+@keyframes h1{
+    0%{
+filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(80%);
+    }
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+    animation-name: h1 ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+img{
+    width: 300px;
+    height: 300px;
+   outline: solid red 10px;
+ 
+}
+
+@keyframes img1{
+    0%{ position: relative;
+        left: 0px;
+        top: 0px;
+    z-index: 1;
+    }
+    20%{position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+    }
+    100%{position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        
+    }
+
+}
+@keyframes img2{
+    0%{position: relative;
+        left: -305px;
+        top: 0px;
+        z-index: 2;
+    
+    }
+    20%{position: relative;
+        left: -305px;
+        top: 0px;
+        z-index: 1;
+
+    }
+    100%{position: relative;
+        left: -305px;
+        top: 0px;
+        z-index: 2;
+        
+    }
+
+}
+@keyframes img3{
+    0%{position: relative;
+        left: -610px;
+        top: 0px;
+        z-index: 2;
+    
+    }
+    40%{position: relative;
+        left: -610px;
+        top: 0px;
+        z-index: 1;
+    }
+    100%{position: relative;
+        left: -610px;
+        top: 0px;
+        z-index: 2;
+    
+        
+    }
+
+}
+@keyframes img4{
+    0%{position: relative;
+        left: -915px;
+        top: 0px;
+        z-index: 2;
+    
+    }
+    
+    60%{position: relative;
+        left: -915px;
+        top: 0px;
+        z-index: 1;
+    }
+    100%{position: relative;
+        left: -915px;
+        top: 0px;
+        z-index: 2;
+        
+    }
+
+}
+@keyframes img5{
+    0%{position: relative;
+        left: -1220px;
+        top: 0px;
+        z-index: 2;
+    
+    }
+    80%{
+        position: relative;
+        left: -1220px;
+        top: 0px;
+        z-index: 1;
+    }
+    100%{position: relative;
+        left: -1220px;
+        top: 0px;
+        z-index: 2;
+        
+    }
+
+}
+
+.img1{
+    animation-name: img1 ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.img2{
+    animation-name: img2 ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.img3{
+    animation-name: img3 ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.img4{
+    animation-name: img4 ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.img5{
+    animation-name: img5 ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}

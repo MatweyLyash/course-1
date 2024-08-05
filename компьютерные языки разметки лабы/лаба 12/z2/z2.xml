@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="C:\Users\Матвей\Desktop\Лаборато рные работы\компьютерные языки разметки лабы\лаба 12\z1\style.css"?>
+<!DOCTYPE body[
+<!ELEMENT body (header, text, artist)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>]>
+
+<body>
+<header>Breakcore</header>
+<text> Брейккор — стиль экстремальной электронной музыки, объединяющий в себе элементы драм-н-бейса, хардкор-техно и IDM в ориентируемый на брейкбит-звук, скоростной, сложный, максимально плотный.</text>
+<artist>
+sewerslvt
+GnB Chili
+Partner coub
+</artist>
+</body>

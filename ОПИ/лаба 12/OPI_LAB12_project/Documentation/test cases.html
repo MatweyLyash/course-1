@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test cases</title>
+    <style>
+        body{
+            background-color: rgb(111, 111, 111);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .main{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .main .number_system,
+        .simple_calculator,
+        .timetable,
+        .string_calculator {
+            border: 1px solid rgb(178, 178, 178);
+            margin: 15px 30px;
+            flex: 1 1 30%;
+            background-color: rgb(99, 99, 99);
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+        .table{
+            margin: 0px 0px 15px 0px;
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table th, td{
+            border: 1px solid rgb(178, 178, 178);
+            padding: 5px 10px;
+            text-align: center;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            color: rgb(178, 178, 178);
+        }
+        .simple_calculator .table img{
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <h1>Test cases</h1>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="number_system">     <!-- <---- див для Стасика -->
+                    <div class="title">
+                        <h3>Number system</h3>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Условие</th>
+                                <th>Скриншот</th>
+                                <th>Результат</th>
+                            </tr>
+                            <tr>
+                                <td>Перевести из двоичной в восьмеричную, десятичную, шестнадцатеричную</td>
+                                <td><img src="screens/module11_bin.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Перевести  из восьмеричной в двоичную, десятичную, шестнадцатеричную</td>
+                                <td><img src="screens/module11_oct.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Перевести из десятичной в двоичную, восьмеричную, шестнадцатеричную</td>
+                                <td><img src="screens/module11_dec.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Перевести из шестнадцатеричнойой в двоичную, восьмеричную, десятичную</td>
+                                <td><img src="screens/module11_hex.png" alt=""></td>
+                                <td>Успешноы</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="simple_calculator">      <!-- <---- див для Матвея -->
+                    <div class="title">
+                        <h3>Simple calculator</h3>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Условие</th>
+                                <th>Скриншот</th>
+                                <th>Результат</th>
+                            </tr>
+                            <tr>
+                                <td>Сумма</td>
+                                <td><img src="screens/module4_plus.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Разность</td>
+                                <td><img src="screens/module4_minus.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Произведение</td>
+                                <td><img src="screens/module4_umnozhenie.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Деление</td>
+                                <td><img src="screens/module4_delenie.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Возведение в степень</td>
+                                <td><img src="screens/module4_stepen.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Процент от числа</td>
+                                <td><img src="screens/module4_prozent.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="timetable">             <!-- <---- див для Максима -->
+                    <div class="title">
+                        <h3>Timetable</h3>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Условие</th>
+                                <th>Скриншот</th>
+                                <th>Результат</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="string_calculator">
+                    <div class="title">
+                        <h3>String calculator</h3>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Условие</th>
+                                <th>Скриншот</th>
+                                <th>Результат</th>
+                            </tr>
+                            <tr>
+                                <td>Сравнение строк</td>
+                                <td><img src="screens/module6_stringComparasion.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Поиск подстроки</td>
+                                <td><img src="screens/module6_findSubstr.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Замена подстроки в строке</td>
+                                <td><img src="screens/module6_replacementSubstr.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                            <tr>
+                                <td>Подсчёт гласных в строке</td>
+                                <td><img src="screens/module6_counter.png" alt=""></td>
+                                <td>Успешно</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="content">
+                    <p>Лабораторная работа №12</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

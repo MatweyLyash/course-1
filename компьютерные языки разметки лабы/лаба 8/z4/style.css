@@ -1,0 +1,68 @@
+div{
+    text-align: center;
+}
+nav {
+    display: inline-grid;
+}
+
+li {
+    list-style-type: none;
+    width: 164px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 2px solid black;
+
+    padding: 5px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin: -2px;
+    background: url(facultet.png) no-repeat 0 0;
+    background-color: rgb(187, 187, 235);
+}
+
+.kaf a {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    position: relative;
+    margin: -2px;
+    text-align: initial;
+    right: 40px;
+    background: initial;
+    background-color: rgb(98, 163, 212);
+    color: rgb(209, 75, 111);
+}
+
+.nav1:hover .bstu{
+    background: url(facultet.png) no-repeat 0 0;
+    background-color: rgb(255, 242, 0);
+}
+.nav2:hover .it{
+    background: url(facultet.png) no-repeat 0 -30px;
+    background-color: rgb(125, 248, 242);
+}
+.nav3:hover .pim{
+    background: url(facultet.png) no-repeat 0 -60px;
+    background-color: rgb(62, 247, 15);
+}
+.nav4:hover .xtit{
+    background: url(facultet.png) no-repeat 0 -90px;
+    background-color: rgb(255, 255, 255);
+}
+.kaf {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+
+}
+
+

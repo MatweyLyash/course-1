@@ -1,0 +1,74 @@
+.flex {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.flex div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: rgb(14, 17, 58); 
+    color: rgb(17, 124, 177);
+}
+
+.cl1,
+.cl3 {
+    flex-basis: 24%;
+}
+
+.cl2 {
+    flex-basis: 50%;
+ 
+}
+
+.head {
+    width: 100%;
+}
+
+video {
+    height: 200px;
+    width: 320px;
+}
+.burger-menu{
+    margin-top: -15px;
+}
+body{
+    background-color: rgb(91, 6, 20);
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+li{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(17, 124, 177);
+   padding: 10px;
+    margin-left: -40px;
+    
+    width: 120px;
+    background-color: rgb(14, 17, 58);
+    width: 20%;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+    font-weight: bold;
+}
+input, label{
+    display: none;
+}
+.container{
+    text-align: center;
+}

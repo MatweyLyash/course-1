@@ -1,0 +1,126 @@
+div{
+    margin-bottom: 100px;
+}
+img{
+    width: 150px;
+    height: auto;
+}
+@keyframes a1 {
+    from{
+    left:0px;
+    position: relative;
+    }
+    to{
+left: 200px;
+position: relative;
+    }
+}
+@keyframes a2{
+    from{
+left: 0px;
+    }
+    to{
+        left: 200px;
+        transform: scale(0.3);
+    }
+}
+@keyframes a3{
+    from{
+position: relative;
+left: -300px;
+filter: opacity(100%);
+    }
+ 
+    to{
+        left: 1500px;
+        position: relative;
+    }
+}
+@keyframes a4{
+    from{
+transform: translateY(0px);
+    }
+    to{
+transform: translateY(50px);
+    }
+}
+@keyframes a5{
+    0%{
+        position: relative;
+top: 0px;
+left: 0px;
+    }
+25%{
+    position: relative;
+top: 0px;
+left: 50px;
+}
+    50%{
+        position: relative;
+top: 50px;
+left: 50px;
+    }
+    75%{
+        position: relative;
+top: 50px;
+left: 0px;
+    }
+    to{
+        position: relative;
+top: 0px;
+left: 0px;
+    }
+}
+.d1{
+    animation-name: a1 ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.d2{
+    animation-name: a2 ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.d3{
+    animation-name: a3 ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.d4{
+    animation-name: a4 ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.d5{
+    animation-name: a5 ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes h1{
+    0%{
+filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(80%);
+    }
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+    animation-name: h1 ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

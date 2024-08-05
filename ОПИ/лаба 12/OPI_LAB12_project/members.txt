@@ -1,0 +1,9 @@
+# OPI_LAB12_project
+Laboratory work #12 OPI 
+
+Members : 
+1) Shimko Aleksey - leader
+2) Stas Rozel - module 11 
+3) Mikhail Uglyanitsa - module 6
+4) Lyashonok Matvey - module 4
+5) Buiko Maxim - module 9

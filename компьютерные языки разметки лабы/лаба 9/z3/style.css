@@ -1,0 +1,95 @@
+.grid{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr) ;
+    grid-template-rows: repeat(7, 100px);
+     grid-template-areas:
+     'nav header header header header header header'
+     'nav header header header header header header'
+     'nav article article article article aside aside'
+     'nav article article article article aside aside' 
+     'nav article article article article aside aside' 
+     'nav article article article article aside aside' 
+     'footer footer footer footer footer footer footer';
+     
+}
+.nav{
+    grid-area: nav;
+    background: green;
+    font-size: 20px;
+
+}
+.header{
+    grid-area: header;
+    background: green;
+    font-size: 50px;
+}
+.article{
+    grid-area: article;
+    background: green;
+    font-size: 20px;
+}
+.aside{
+    grid-area: aside;
+    background: green;
+    font-size: 40px;
+}
+.footer{
+    grid-area: footer;
+    background: green;
+    text-align: right;
+    
+}
+.grid div{
+    padding: 10px;
+    border: 5px white solid;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ol{
+    list-style-type: none;
+    margin-left: -30px;
+    text-align: center;
+}
+.anim{
+    animation-name: ani;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes ani{
+    0%{
+        color: red;
+    }
+    33%{
+        color: aqua;
+    }
+    50%{
+        color: coral;
+    }
+    75%{
+        color:deeppink
+    }
+    100%{
+        color: dodgerblue;
+    }
+}
+.ani{
+    animation-name: an;
+    animation-timing-function: linear;
+    animation-duration: 0.0001s;
+    animation-iteration-count: infinite;
+}
+@keyframes an{
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+    }
+}

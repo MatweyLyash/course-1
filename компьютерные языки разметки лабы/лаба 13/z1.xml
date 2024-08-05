@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<body>
+<element>
+<numbers>1</numbers>
+<letters>A</letters>
+</element>
+<element>
+<numbers>2</numbers>
+<letters>B</letters>
+</element>
+<element>
+<numbers>3</numbers>
+<letters>C</letters>
+</element>
+<element>
+<numbers>4</numbers>
+<letters>D</letters>
+</element>
+<element>
+<numbers>5</numbers>
+<letters>E</letters>
+</element>
+<element>
+<numbers>6</numbers>
+<letters>F</letters>
+</element>
+<element>
+<numbers>7</numbers>
+<letters>G</letters>
+</element>
+<element>
+<numbers>8</numbers>
+<letters>H</letters>
+</element>
+<element>
+<numbers>9</numbers>
+<letters>I</letters>
+</element>
+<element>
+<numbers>0</numbers>
+<letters>J</letters>
+</element>
+</body>

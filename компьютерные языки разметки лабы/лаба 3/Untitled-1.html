@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        @font-face {
+            font-family: Caveat;
+            src: url("fonts/Comfortaa.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: Exo2;
+            src: url("fonts/Exo2.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: Comfortaa;
+            src: url("fonts/Comfortaa.woff") format("woff");
+        }
+
+        h1 {
+            font-family: Caveat;
+            margin: 0;
+            text-align: center;
+            font-style: bold;
+            text-transform: uppercase;
+            font-size: 45px;
+        }
+
+        h2 {
+            font-family: Exo2;
+            margin-bottom: 1.2em;
+            margin-top: 0.2rem;
+            text-indent: 25px;
+            text-align: left;
+
+        }
+
+        p {
+            font-family: Comfortaa;
+            text-indent: 25px;
+            text-align: justify;
+            margin: 0;
+            line-height: 200%;
+            font-size: 20px;
+        }
+
+        p::first-letter {
+            font-style: bold;
+            font-size: 45px;
+            color: white;
+            background-color: hsla(275, 100%, 10%, 1);
+        }
+
+        ol li {
+            list-style-type: none;
+            counter-increment: item;
+        }
+
+        ol li::before {
+            content: counter(item, upper-roman);
+            padding-right: 20px;
+            color: blue;
+        }
+
+        .z21 {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Лабараторная работа №3</h1>
+    <h2 class="z21">Центральный процессор</h2>
+    <p>Центра́льный проце́ссор - электронный блок либо интегральная схема, исполняющая машинные инструкции (код
+        программ), главная часть аппаратного обеспечения компьютера или программируемого логического контроллера. Иногда
+        этот компонент называют просто процессором.</p>
+    <p>Изначально термин центральное процессорное устройство описывал специализированную систему элементов, предназначенных для понимания и выполнения машинного кода компьютерных программ, а не только фиксированных логических операций. Начало применения термина и его аббревиатуры по отношению к компьютерным системам было положено в 1960-е годы.</p>
+    <h2>Отчёты</h2>
+    <p>Устройство, архитектура и реализация процессоров с тех пор неоднократно менялись. В современных вычислительных системах все функции центрального процессора обычно выполняет одна микросхема высокой степени интеграции — микропроцессор.</p>
+    <h2 class="z21">Главными характеристиками ЦПУ являются:</h2>
+    <ol type="I">
+        <li>тактовая частота</li>
+        <li>энергопотребление</li>
+        <li>нормы литографического процесса</li>
+        <li>архитектура</li>
+        <li>тех.процесс</li>
+
+    </ol>
+</body>
+
+</html>

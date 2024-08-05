@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagram</title>
+    <style>
+        body{
+            background-color: rgb(111, 111, 111);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .main{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .main .number_system,
+        .simple_calculator,
+        .timetable,
+        .string_calculator {
+            border: 1px solid rgb(178, 178, 178);
+            margin: 15px 30px;
+            flex: 1 1 30%;
+            background-color: rgb(99, 99, 99);
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+        .table{
+            margin: 0px 0px 15px 0px;
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table th, td{
+            border: 1px solid rgb(178, 178, 178);
+            padding: 5px 10px;
+            text-align: center;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            color: rgb(178, 178, 178);
+        }
+        .simple_calculator .table img{
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <h1>Diagram</h1>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="number_system">     <!-- <---- див для Стаса -->
+                    <div class="title">
+                        <h3>Number system</h3>
+                    </div>
+                    <div class="container">
+                        <img src="img/module11_diagram.png" alt="">
+                    </div>
+                </div>
+                <div class="simple_calculator">      <!-- <---- див для Матвея -->
+                    <div class="title">
+                        <h3>Simple calculator</h3>
+                    </div>
+                    <div class="container">
+                        <img src="img\module4_diagram.png" alt="" >
+                    </div>
+                </div>
+                <div class="timetable">             <!-- <---- див для Максима -->
+                    <div class="title">
+                        <h3>Timetable</h3>
+                    </div>
+                    <div class="container">
+                       
+                    </div>
+                </div>
+                <div class="string_calculator"><!-- <---- див для Мишки -->
+                    <div class="title">
+                        <h3>String calculator</h3>
+                    </div>
+                    <div class="container">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="content">
+                    <p>Лабораторная работа №12</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

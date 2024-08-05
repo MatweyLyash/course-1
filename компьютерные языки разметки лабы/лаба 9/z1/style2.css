@@ -1,0 +1,34 @@
+.grid{
+    display: grid;
+
+    grid-template-columns: 48% 48% 3%;
+    grid-template-rows:70% 70%;
+}
+.grid div{
+    border: 1px solid black;
+}
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+} 
+.box2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.box3{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.box4{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+ div h1{
+    margin:0;
+}
+h1{
+    text-align: center;
+}

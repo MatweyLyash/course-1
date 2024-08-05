@@ -1,0 +1,130 @@
+
+aside {
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    margin-left: -50px;
+    margin-top: -20px;
+
+}
+h1{
+margin-bottom: -20px;
+text-align: center;
+}
+p{
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.a1:link {
+    text-decoration: none;
+    color: red;
+
+}
+
+.a2:visited {
+
+    color: #8B0000;
+}
+
+.a3:hover {
+    color: green;
+}
+
+.a4:active {
+    color: rgb(184, 134, 11);
+}
+
+.a5:hover {
+    animation-name: an5;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes an5 {
+    0% {
+        color: red;
+    }
+
+    33% {
+        color: aqua;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    75% {
+        color: deeppink
+    }
+
+    100% {
+        color: dodgerblue;
+    }
+}
+
+.a6:hover {
+    animation-name: an6;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes an6 {
+    0% {
+        color: mediumslateblue;
+    }
+
+    33% {
+        color: slateblue;
+    }
+
+    50% {
+        color: rebeccapurple;
+    }
+
+    75% {
+        color: deeppink;
+    }
+
+    100% {
+        color: mediumslateblue;
+    }
+}
+
+.a7:hover{
+    animation-name: an7;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-decoration:none;
+}
+
+@keyframes an7 {
+    0% {
+        color: red;
+    }
+
+    33% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: darkturquoise;
+    }
+
+    100% {
+        color: black;
+    }
+}

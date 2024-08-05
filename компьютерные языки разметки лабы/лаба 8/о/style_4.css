@@ -1,0 +1,77 @@
+div{
+    text-align: center;
+}
+nav {
+    display: inline-grid;
+}
+
+li {
+    list-style-type: none;
+    width: 164px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    text-align: center;
+    margin: -2px;
+    background: url(pictures/facultet.png) no-repeat 0 0;
+    background-color: rgb(187, 187, 235);
+}
+
+.sub a {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    position: relative;
+    margin: -2px;
+    text-align: initial;
+    right: 40px;
+    background: initial;
+    background-color: rgb(166, 204, 238);
+}
+
+.nav1:hover .BSTU{
+    background: url(pictures/facultet.png) no-repeat 0 0;
+    background-color: rgb(187, 187, 235);
+}
+.nav:hover .IT{
+    background: url(pictures/facultet.png) no-repeat 0 -30px;
+    background-color: rgb(187, 187, 235);
+}
+.nav2:hover .PIM{
+    background: url(pictures/facultet.png) no-repeat 0 -60px;
+    background-color: rgb(187, 187, 235);
+}
+.nav3:hover .HTIT{
+    background: url(pictures/facultet.png) no-repeat 0 -90px;
+    background-color: rgb(187, 187, 235);
+}
+.sub {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    animation: animation;
+    animation-duration: 0.3s;
+
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

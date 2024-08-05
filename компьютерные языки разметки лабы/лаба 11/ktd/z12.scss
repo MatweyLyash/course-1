@@ -1,0 +1,14 @@
+$text-size: 20px;
+$text-color:black;
+
+@if($text-size == 20px){
+    $text-color: red;
+}
+@else{
+    $text-color: black;
+}
+
+.size20{
+    font-size: $text-size;
+    color: $text-color;
+}

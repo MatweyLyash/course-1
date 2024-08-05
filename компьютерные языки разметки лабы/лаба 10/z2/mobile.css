@@ -1,0 +1,57 @@
+@media (max-width:960px) {
+
+    .burger-menu{
+        display: none;
+    }
+
+    li{
+        display: block;
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(14, 17, 58);
+        color: rgb(17, 124, 177);
+        width: 20%;
+        
+        margin-bottom: 2px;
+    }
+
+    label{
+        font-weight: bold;
+        word-spacing: 15px;
+        text-align: left;
+        display: block;
+        padding: 10px;
+        background-color: rgb(14, 17, 58); 
+       color: rgb(17, 124, 177);
+        margin-bottom: 2px;
+        width: 20%;
+    }
+
+    input[type="checkbox"]:checked + label{
+        content: "\2716";
+        display: block;
+    }
+    
+    input[type="checkbox"]:checked ~ .burger-menu{
+        display: block;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(17, 124, 177);
+
+    }
+    a:visited{
+        color: rgb(17, 124, 177);
+    }
+
+   
+}
+input{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 124, 177);
+
+}

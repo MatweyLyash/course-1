@@ -1,0 +1,9 @@
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: solid 1px black;
+}
+.div1{
+    background-image: linear-gradient(to top red, blue);
+}

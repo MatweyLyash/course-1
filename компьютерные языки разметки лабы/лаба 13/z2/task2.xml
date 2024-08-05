@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<!DOCTYPE attestation[
+<!ELEMENT attestation (student,number,name,mark)>
+<!ELEMENT student (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>]>
+
+<attestation>
+<student>
+<number>1</number>
+<name>Шимко Алексей</name>
+<mark>11</mark>
+</student>
+<student>
+<number>2</number>
+<name>Розель Станислав</name>
+<mark>7</mark>
+</student>
+<student>
+<number>3</number>
+<name>Буйко Максим</name>
+<mark>3</mark>
+</student>
+<student>
+<number>4</number>
+<name>Угляница Михаил</name>
+<mark>9</mark>
+</student>
+<student>
+<number>5</number>
+<name>Костюченко Владислав</name>
+<mark>10</mark>
+</student>
+<student>
+<number>6</number>
+<name>Ляшонок Матвей</name>
+<mark>8</mark>
+</student>
+</attestation>

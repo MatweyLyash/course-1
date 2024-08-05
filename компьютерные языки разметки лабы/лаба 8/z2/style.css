@@ -1,0 +1,557 @@
+nav li{
+   display: inline-block; 
+margin-left:0 ;
+
+margin-right: -5px;
+   border: 2px solid green;
+   padding: 10px 5px 10px 5px;
+background-color: yellow;
+color: green;
+
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+    animation-name: h1 ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pat{
+    color: blue;
+    animation-name: pat;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes pat{
+    0%{
+filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(80%);
+    }
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+input {
+    width: 200x;
+    height: 30px;
+    margin-right: 20px;
+}
+
+div {
+    display: inline-block;
+}
+
+.a1:hover {
+    transform: scale(0.5);
+}
+
+.a2:hover {
+    rotate: 45deg;
+
+}
+
+.a3:hover {
+    translate: 50px;
+}
+
+.a4:hover {
+    transform: skew(-20deg);
+}
+
+.a11:hover {
+    transform: perspective(5cm) rotateX(15deg);
+
+}
+
+.a12:hover {
+    transform: perspective(5cm) rotateY(15deg);
+}
+
+.a13:hover {
+    transform: perspective(2cm)rotateX(15deg);
+}
+
+.a14:hover {
+    transform: perspective(5cm) rotateY(-15deg);
+}
+
+.b1:hover {
+    background-color: black;
+    color: white;
+}
+
+.b2:hover {
+    border: 5px solid red;
+    outline: 5px solid yellow;
+}
+
+.b3:hover {
+    border-top: 5px solid green;
+    border-left: none;
+    border-bottom: 5px solid green;
+    border-right: none;
+
+}
+
+.b4:hover {
+    border-left: 5px solid blue;
+    border-bottom: none;
+    border-right: 5px solid blue;
+    border-top: none;
+}
+
+.b5:hover {
+    background-image: radial-gradient(yellow, #FF00F7, cyan);
+}
+
+.box {
+    width: 100%;
+    height: 210px;
+}
+
+.box img {
+    position: absolute;
+}
+
+.img1 {
+    left: 0px;
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border: 2px solid black;
+    animation-direction: alternate;
+
+}
+
+.img2 {
+    left: 20px;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.img3 {
+    left: 40px;
+    animation-name: anime3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.img4 {
+    left: 60px;
+    animation-name: anime4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes anime1 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0);
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+
+    }
+}
+
+@keyframes anime2 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0);
+        left: 20px;
+    }
+
+    100% {
+        left: 280px;
+        filter: blur(10px);
+    }
+}
+
+@keyframes anime3 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0);
+        left: 40px;
+    }
+
+    100% {
+        left: 520px;
+        filter: grayscale(1);
+    }
+}
+
+@keyframes anime4 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0);
+        left: 60px;
+    }
+
+    100% {
+        left: 760px;
+        filter: invert(1);
+    }
+}
+
+.box2 img {
+    position: relative;
+}
+
+.ani1 {
+    animation-name: anime21;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    outline: 6px solid #FF67FF;
+
+}
+
+.ani2 {
+    outline: 6px solid #FF67FF;
+    animation-name: anime22;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+.ani3 {
+    outline: 6px solid #FF67FF;
+    animation-name: anime23;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+.ani4 {
+    outline: 6px solid #FF67FF;
+    animation-name: anime24;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+.ani5 {
+    outline: 6px solid #FF67FF;
+    animation-name: anime25;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes anime21 {
+    0% {
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    20% {
+        left: 0;
+        top: 0;
+        z-index: 2;
+
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+}
+
+@keyframes anime22 {
+    0% {
+        left: -204px;
+        top: 0;
+        z-index: 2;
+    }
+
+    20% {
+        left: -204px;
+        top: 0;
+        z-index: 1;
+
+    }
+
+    100% {
+        left: -204px;
+        top: 0;
+        z-index: 2;
+    }
+}
+@keyframes anime23 {
+    0% {
+        left: -408px;
+        top: 0px;
+        z-index: 2;
+
+    }
+
+    40% {
+        left: -408px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    100% {
+        left: -408px;
+        top: 0px;
+        z-index: 2;
+    }
+
+}
+
+@keyframes anime24 {
+    0% {
+        left: -612px;
+        top: 0px;
+        z-index: 2;
+
+    }
+
+    60% {
+        left: -612px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    100% {
+        left: -612px;
+        top: 0px;
+        z-index: 2;
+
+    }
+
+}
+
+@keyframes anime25 {
+    0% {
+        left: -816px;
+        top: 0px;
+        z-index: 2;
+
+    }
+
+    80% {
+
+        left : -816px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    100% {
+        left: -816px;
+        top: 0px;
+        z-index: 1;
+
+    }
+}
+.box3 img{
+    margin-right:1000px ;
+    margin-bottom: 100px;
+}
+
+.m1{
+    animation-name: move1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.m2{
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.m3{
+    animation-name: move3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.m4{
+    animation-name: move4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.m5{
+    animation-name: move5;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes move1{
+    from{
+        left: 0px;
+        position: relative;
+    }
+    to{
+        left: 200px;
+        position: relative;
+    }
+}
+@keyframes move2{
+    from{
+        left: 0px;
+        position: relative;
+    }
+  
+    to{
+        left:200px;
+        transform:  scale(0.25);
+        position: relative;
+    }
+}
+@keyframes move3{
+    from{
+        left: -300px;
+        position: relative;
+    }
+    to{
+        left: 2200px;
+        position: relative;
+    }
+}
+@keyframes move4{
+    from{
+        left: 0;
+        bottom:0;
+
+        position: relative;
+    }
+    to{
+        left: 0;
+        bottom: -50px;
+
+        position: relative;
+    }
+}
+@keyframes move5{
+    0%{
+        left: 0;
+        bottom:0;
+
+        position: relative;
+    }
+    25%{
+        left: 0;
+        bottom: -50px;
+
+        position: relative;
+    }
+    50%{
+        left: 50px;
+        bottom: -50px;
+        position: relative;
+    }
+    75%{
+        left: 50px;
+        bottom: 0px;
+        position: relative;
+    }
+    100%{
+        left: 0;
+        bottom:0;
+
+        position: relative;
+    }
+}
+.bor{
+   animation-name: p;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    width: 300px;
+    height: 300px;
+    outline: 4px solid paleturquoise;
+    text-align: justify;
+    margin: 0 400px 0 600px;
+}
+
+@keyframes p{
+    0%{
+        color: red;
+    }
+    33%{
+        color: aqua;
+    }
+    50%{
+        color: coral;
+    }
+    75%{
+        color:deeppink
+    }
+    100%{
+        color: dodgerblue;
+    }
+}

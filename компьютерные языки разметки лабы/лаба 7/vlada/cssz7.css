@@ -1,0 +1,50 @@
+p {
+    width: 300px;
+    height: 300px;
+    border: solid 5px black;
+    text-align: justify;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+@keyframes text{
+    0%{
+color: aqua;
+    }
+    25%{
+color: blue;
+    }
+    50%{
+color: purple;
+    }
+    75%{
+color: pink;
+    }
+    100%{
+color: red;
+    }
+}
+p{
+    animation-name: text ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes h1{
+    0%{
+filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(80%);
+    }
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+    animation-name: h1 ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

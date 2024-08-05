@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+    font-family: sans-serif;
+    color:brown
+
+}
+body{
+    background: rgb(122, 67, 200);
+}
+artist{
+text-align: center;
+font-size: larger;
+color: aquamarine;
+}
+text{
+    color: red;
+}
+*{
+    display: block;
+    margin-bottom: 20px;
+}

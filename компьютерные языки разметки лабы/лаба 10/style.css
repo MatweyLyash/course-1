@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap; 
+   
+    justify-content: space-between;
+}
+.flex div{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.cl1, .cl3 {
+    flex-basis: 20%;
+}
+.cl2 {
+    flex-basis: 50%;
+}
+.head{
+  width: 100%;
+}
+video{
+    max-width: 100%;
+   height: 200px;
+}
+div.video{
+    width: 360px;
+}
+audio{
+    margin-top: 5%;
+}
+h4{
+    padding: 0%;
+}
+input[type="checkbox"]{
+    display: none;
+}

@@ -1,0 +1,21 @@
+.grid{
+    display: inline-grid;
+    grid-template-columns: 3% 48% 48%;
+    grid-template-rows: 500px 500px 500px;
+    text-align: center;
+}
+.vertical{
+   
+    margin: 0;
+   
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+.border{
+    border: 2px rgb(133, 55, 134)  solid ;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+@import'variables';
+@mixin vvod {
+    margin-right: 9%;
+}
+body {
+    background-color: pink;
+}
+h2 {
+    margin: 0;
+}
+span {
+    color: rgb(1, 173, 230)
+}
+.logo {
+    img {
+        width: 120px;
+        height: 100px;
+    }
+}
+.nav {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 174, 255);
+    a {
+        font-size: $value;
+        text-decoration: none;
+        color: red;
+    }
+}
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    div {
+        border: 1px solid black;
+    }
+    .column1 {
+        flex: 1 1 65%;
+        .zag1 {
+            flex-basis: 100%;
+
+            text-align: center;
+        }
+        .zag2 {
+            flex-basis: 100%;
+
+            text-align: center;
+        }
+        img {
+            width: 230px;
+            height: 200px;
+        }
+    }
+    .gachi {
+        display: flex;
+        justify-content: space-between;
+    }
+    .column2 {
+        flex: 1 1 35%;
+        h2 {
+            text-align: center;
+            margin: 0;
+        }
+        .form {
+            h2 {
+                text-align: center;
+            }
+            input {
+                @include vvod;
+            }
+            .nummber {
+                width: 200px;
+            }
+        }
+    }
+}
+.mid {
+    display: flex;
+    flex-flow: row nowrap;
+    .colum3 {
+        flex: 1 1 65%;
+        display: flex;
+        flex-flow: row wrap;
+        .zag3 {
+            flex: 1 1 100;
+            display: flex;
+            justify-content: center;
+        }
+        div {
+            flex: 1 1 100%;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid black;
+            img {
+                width: 170px;
+                height: 200px;
+            }
+        }
+    }
+    .colum4 {
+        display: flex;
+        flex: 1 1 35%;
+        .film {
+            display: flex;
+            flex: 1 1 30%;
+            flex-flow: column nowrap;
+            img {
+                margin-left: 10px;
+                display: flex;
+            flex: 1 1 70%;
+                margin-top: 20px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+.opisanie{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70%;
+     div{
+        margin: 30px 10px 0 10px;
+     }
+}
+       
+    }
+}
+.info{
+    p{
+        text-align: center;
+        font-size: 30px;
+        border: 10px dotted green;
+    }
+}
+%form-p{
+    font-size: 20px;     
+    text-align: center;
+}
+.form{
+    @extend %form-p;
+}
+@function font-size(){
+    $text-size: $header-size - 2px;
+    @return $text-size;
+}
+$value:font-size();
